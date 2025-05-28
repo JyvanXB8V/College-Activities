@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Allocate memory for 10 GPAs using the new operator
+    float* gpaofstudents = new float[10];
+
+    // The input for the GPAs of the 10 students
+    for (int i = 0; i < 10; i++) {
+        cout << "Enter the GPA of the student " << i + 1 << ": ";
+        cin >> gpaofstudents[i];
+    }
+
+    // Display the GPAs of the 10 students
+    cout << endl << "The GPAs of the 10 students are:" << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << "Student " << i + 1 << ": " << gpaofstudents[i] << endl;
+    }
+
+    // De-allocate memory for the GPA array using the delete operator
+    delete[] gpaofstudents;
+
+    return 0;
+}
