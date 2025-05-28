@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+// Node structure for the Linked List
+struct Node {
+    string data;
+    Node* next;
+};
+
+// This will display the linked list
+void displayList(Node* head) {
+    Node* temp = head;
+    while (temp != NULL) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+}
+
+int main() {
+    // Linked list with the coloirs of rainbow
+    Node* head = new Node();
+    Node* second = new Node();
+    Node* third = new Node();
+    Node* fourth = new Node();
+    Node* fifth = new Node();
+    Node* sixth = new Node();
+    Node* seventh = new Node();
+
+    head->data = "VIOLET";
+    head->next = second;
+
+    second->data = "INDIGO";
+    second->next = third;
+
+    third->data = "BLUE";
+    third->next = fourth;
+
+    fourth->data = "GREEN";
+    fourth->next = fifth;
+
+    fifth->data = "YELLOW";
+    fifth->next = sixth;
+
+    sixth->data = "ORANGE";
+    sixth->next = seventh;
+
+    seventh->data = "RED";
+    seventh->next = NULL;
+
+    // Displaying the Linked List
+    
+    displayList(head);
+
+    return 0;
+}
