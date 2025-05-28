@@ -1,0 +1,32 @@
+package Activity2OOP;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Act2Buffered {
+	
+	public static void main(String[] args) {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		try {
+			System.out.println("This program converts input time in Seconds to its equivalent in Hours, Minutes, and Seconds");
+			System.out.printf("%n %37s","Input time in seconds           : ");
+			int timeinsecs = Integer.parseInt(reader.readLine());
+			
+			int hours = timeinsecs / 3600;
+			int remainingsecs = timeinsecs % 3600;
+			int mins = remainingsecs / 60;
+			int secs = remainingsecs % 60;
+			
+			System.out.printf("%n %67s","The inputted time equivalent to : " + hours + " Hours " + mins + " Minutes " + secs + " Seconds ");
+			
+		} catch (IOException e) {
+			
+			System.out.println("Please enter a number in seconds");
+			
+		}
+		
+	}
+
+}
