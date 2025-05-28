@@ -1,0 +1,32 @@
+package Parallelogram;
+
+import java.util.Scanner;
+
+public class SCANNERJAVA {
+
+    public static void main(String [] args) {
+
+        try (
+            Scanner scan = new Scanner(System.in)) {
+            System.out.print("Enter Length of S1 (cm.)  :  ");
+            double s1 = scan.nextDouble();
+
+            System.out.print("Enter Length of S2 (cm.)  :  ");
+            double s2 = scan.nextDouble();
+
+            double area = s1 * s2;
+            double height = area / s2;
+
+            System.out.printf(" %n %27s %5.2f %14s %n", "Area : ", area, "sq. cm.");
+            System.out.printf("   %32.4f %12s %n", area / 10000, "sq. m.");
+            System.out.printf("   %33.4f %12s %n", area / 6.4516, "sq. in.");
+            System.out.printf("   %32.4f %13s %n", area / 929.0304, "sq. ft.");
+
+            System.out.printf(" %n %27s %5.2f %10s %n", "Height : ", height, "cm.");
+            System.out.printf("   %32.4f %8s %n", height / 100, "m.");
+            System.out.printf("   %32.4f %9s %n", height / 2.54, "in.");
+            System.out.printf("   %32.4f %9s %n", height / 30.48, "ft.");
+        }
+    }
+
+}
