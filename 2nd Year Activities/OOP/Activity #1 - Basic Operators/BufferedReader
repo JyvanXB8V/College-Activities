@@ -1,0 +1,39 @@
+package Parallelogram;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class BufferedReaderTry {
+
+    public static void main(String[] args) {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+
+            try {
+                System.out.print("Enter Length of S1 (cm.)  :  "); //12
+                double s1 = Double.parseDouble(reader.readLine());
+
+                System.out.print("Enter Length of S2 (cm.)  :  "); //5
+                double s2 = Double.parseDouble(reader.readLine());
+
+                double area = s1 * s2;
+                double height = area / s2;
+
+                System.out.printf(" %n %27s %5.2f %14s %n", "Area : ", area, "sq. cm.");
+                System.out.printf("   %32.4f %12s %n", area / 10000, "sq. m.");
+                System.out.printf("   %32.4f %13s %n", area / 6.4516, "sq. in.");
+                System.out.printf("   %32.4f %13s %n", area / 929.0304, "sq. ft.");
+
+                System.out.printf(" %n %27s %5.2f %10s %n", "Height : ", height, "cm.");
+                System.out.printf("   %32.4f %8s %n", height / 100, "m.");
+                System.out.printf("   %32.4f %9s %n", height / 2.54, "in.");
+                System.out.printf("   %32.4f %9s %n", height / 30.48, "ft.");
+            } 
+
+            catch (IOException e) {
+                System.out.println("Error please input a number" );
+            }
+        }
+
+}
