@@ -1,18 +1,18 @@
 # College-Activities
 # Personal code storage
 
-<h3>  This place is my personal storage for all of my existing codes </h3>
+<h2>  This place is my personal storage for all of my existing codes </h2>
 
 <p> This storage consists of codes from my college activities and projects. </p>
 
 <P>
-  <h4>
+  <h3>
     What is inside? codes for the following languages:
-  </h4>
+  </h3>
 </p>
 
 <p>
-  <h5>Coding Languages</h5>
+  <h4>Coding Languages</h4>
   <ul>
     <li> C++ </li>
     <li> Java </li>
@@ -22,7 +22,7 @@
 </p>
 
 <p>
-  <h5>Subject Activities for:</h5>
+  <h4>Subject Activities for:</h4>
   <ul>
    <li> ITC111L - Computer Programming 1 Laboratory (C++) </li>
     <li> ITC123L - Computer Programming 2 Laboratory (C++) </li>
