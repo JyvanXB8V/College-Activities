@@ -12,6 +12,17 @@
 </p>
 
 <p>
+  <h5>Coding Languages</h5>
+  <ul>
+    <li> C++ </li>
+    <li> Java </li>
+    <li> Html </li>
+      
+  </ul>
+</p>
+
+<p>
+  <h5>Subject Activities for:</h5>
   <ul>
     <li> C++ </li>
     <li> Java </li>
