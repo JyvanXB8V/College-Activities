@@ -1,7 +1,7 @@
 # College-Activities
 # Personal code storage
 
-<h2>  This place is my personal storage for all of my existing codes </h2>
+<h2>  This place is my personal storage for all of my existing codes in my college activities </h2>
 
 <p> This storage consists of codes from my college activities and projects. </p>
 
