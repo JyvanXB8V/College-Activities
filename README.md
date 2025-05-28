@@ -24,9 +24,9 @@
 <p>
   <h5>Subject Activities for:</h5>
   <ul>
-    <li> C++ </li>
-    <li> Java </li>
-    <li> Html </li>
-      
+   <li> ITC111L - Computer Programming 1 Laboratory (C++) </li>
+    <li> ITC123L - Computer Programming 2 Laboratory (C++) </li>
+    <li> ITE210L - Object-Oriented Programming Laboratory (Java) </li>
+    <li> ITE212L - Web Systems and Technologies Laboratory (Html and Css) </li>  
   </ul>
 </p>
