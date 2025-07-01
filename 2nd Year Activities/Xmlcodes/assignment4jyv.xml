@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="assignment4jyv.xsl"?>
+<catalog>
+    <list>
+        <store>
+            <date>January 12, 2024</date>
+            <income>2,550,000</income>
+            <location>Mexico City</location>
+        </store>
+
+        <store>
+            <date>February 14, 2024</date>
+            <income>2,000,000</income>
+            <location>Guadalajara</location>
+        </store>
+
+        <store>
+            <date>March 21, 2024</date>
+            <income>3,900,000</income>
+            <location>Ciudad Juárez</location>
+        </store>
+
+        <store>
+            <date>April 10, 2024</date>
+            <income>5,500,000</income>
+            <location>Tijuana</location>
+        </store>
+
+        <store>
+            <date>May 7, 2024</date>
+            <income>3,120,000</income>
+            <location>Mexicali</location>
+        </store>
+
+        <store>
+            <date>June 21, 2024</date>
+            <income>2,230,000</income>
+            <location>Ciudad del Carmen</location>
+        </store>
+
+        <store>
+            <date>July 29, 2024</date>
+            <income>7,000,000</income>
+            <location>Ciudad López Mateos</location>
+        </store>
+
+        <store>
+            <date>August 18, 2024</date>
+            <income>1,500,000</income>
+            <location>Zapopan</location>
+        </store>
+
+        <store>
+            <date>September 17, 2025</date>
+            <income>900,000</income>
+            <location>Naucalpan de Juárez</location>
+        </store>
+
+        <store>
+            <date>October 2, 2026</date>
+            <income>500,000</income>
+            <location>Culiacán</location>
+        </store>
+    </list>
+</catalog>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Quiz3jyv.xsl"?>
+<peripherals>
+    <monitors>
+        <inventory>
+            <product>Monitor</product>
+            <brand>Acer</brand>
+			<model>ACER K202Q Bi 19.5 TN 75HZ</model>
+			<price>PHP 3,198.00</price>
+        </inventory>
+		<inventory>
+            <product>Monitor</product>
+            <brand>Acer</brand>
+			<model>ACER KA252Q E0 24.5 IPS 120HZ</model>
+			<price>PHP 4,198.00</price>
+        </inventory>
+		<inventory>
+            <product>Monitor</product>
+            <brand>Asus</brand>
+			<model>ASUS TUF GAMING VG249Q3A 23.8 IPS 180HZ</model>
+			<price>PHP 9,218.00</price>
+        </inventory>
+		<inventory>
+            <product>Monitor</product>
+            <brand>Msi</brand>
+			<model>MSI EG2412 ESPORTS GAMING 23.8 IPS 170HZ</model>
+			<price>PHP 12,228.00</price>
+        </inventory>
+    </monitors>
+	
+	
+	
+	<keyboards>
+		<inventory>
+            <product>Keyboard</product>
+            <brand>A4 Tech</brand>
+			<model>A4TECH 4200N WIRELESS KEYBOARD</model>
+			<price>PHP 898.00</price>
+        </inventory>
+		<inventory>
+            <product>Keyboard</product>
+            <brand>A4 Tech</brand>
+			<model>A4TECH 9300F WIRELESS KEYBOARD</model>
+			<price>PHP 1,398.00</price> 
+        </inventory>
+		<inventory>
+            <product>Keyboard</product>
+            <brand>Redragon</brand>
+			<model>REDRAGON DARK AVENGER V2 MECHANICAL </model>
+			<price>PHP 1,798.00</price> 
+        </inventory>
+		<inventory>
+            <product>Keyboard</product>
+            <brand>Logitech</brand>
+			<model>LOGITECH MK120 USB KEYBOARD </model>
+			<price>PHP 950.00</price> 
+        </inventory>
+	</keyboards>
+	
+	<mouses>
+		<inventory>
+            <product>Mouse</product>
+            <brand>Redragon</brand>
+			<model>REDRAGON GANIER MOUSE</model>
+			<price>PHP 648.00</price>
+        </inventory>
+		<inventory>
+            <product>Mouse</product>
+            <brand>Redragon</brand>
+			<model>REDRAGON INQUISITOR2 GAMING MOUSE </model>
+			<price>PHP 598.00</price>
+        </inventory>
+		<inventory>
+            <product>Mouse</product>
+            <brand>Asus</brand>
+			<model>ASUS REG KERIS OPTICAL GAMING </model>
+			<price>PHP 3,348.00</price>
+        </inventory>
+		<inventory>
+            <product>Mouse</product>
+            <brand>Asus</brand>
+			<model>ASUS ROG KERIS WIRELESS </model>
+			<price>PHP 4,248.00</price>
+        </inventory>
+	</mouses>
+	
+	<headsets>
+		<inventory>
+            <product>Headset</product>
+            <brand>A4 Tech</brand>
+			<model>A4TECH HS-28</model>
+			<price>PHP 648.00</price>
+        </inventory>
+		<inventory>
+            <product>Headset</product>
+            <brand>Logitech</brand>
+			<model>LOGITECH H340 USB WITH NOISE CANCELLING MIC </model>
+			<price>PHP 1,148.00</price>
+        </inventory>
+		<inventory>
+            <product>Headset</product>
+            <brand>Redragon</brand>
+			<model>REDRAGON EPIUS H360</model>
+			<price>PHP 1,748.00</price>
+        </inventory>
+		<inventory>
+            <product>Headset</product>
+            <brand>Logitech</brand>
+			<model>LOGITECH H570E USB HEADSET WITH NOISE CANCELLING MIC </model>
+			<price>PHP 2,548.00</price>
+        </inventory>
+	</headsets>
+</peripherals>

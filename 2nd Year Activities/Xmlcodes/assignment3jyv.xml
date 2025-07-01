@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="assignment3jyv.xsl"?>
+
+<enterprise>
+    <company>Jyvan Arms Corner</company>
+    <products> 
+        <product>
+            <id>01</id>
+            <name>ARMSCOR GI ENTRY FS 9MM BLACK</name>
+            <category>Pistol</category>
+            <price>19,000</price>
+            <availability>in stock</availability>
+        </product>
+ 
+        <product>
+            <id>02</id>
+            <name> ARMSCOR ROCK STANDARD FS DURACOAT BLACK 45 MAG </name>
+            <category>Pistol</category>
+            <price>35,500</price>
+            <availability>in stock</availability>
+        </product>
+ 
+        <product> 
+            <id>03</id>
+            <name>GLOCK 17 GEN5 FR COYOTE 9MM</name>
+            <category>Pistol</category>  
+            <price>50,000</price>      
+            <availability>in stock</availability>
+        </product>
+		
+		<product> 
+            <id>04</id>
+            <name>KIMBER K6S CDP .357 MAGNUM</name>
+            <category>Revolver</category>  
+            <price>40,000</price>      
+            <availability>in stock</availability>
+        </product>
+		
+		<product> 
+            <id>05</id>
+            <name>KRISS VECTOR CRB G2 SEMI AUTO RIFLE .45ACP BLACK</name>
+            <category>Rifle</category>  
+            <price>375,000</price>      
+            <availability>out of stock</availability>
+        </product>
+		
+		<product> 
+            <id>06</id>
+            <name>TAURUS CT9 G2 CARBINE WITH 3 MAGAZINES BLACK 9MM 30 SHOTS</name>
+            <category>Rifle</category>  
+            <price>76,000</price>      
+            <availability>in stock</availability>
+        </product>
+		
+		<product> 
+            <id>07</id>
+            <name>AKKAR SHOTGUN KARATAY 612 HD SHOTGUN 12 GA CALIBER ARMOR</name>
+            <category>Shotgun</category>  
+            <price>36,000</price>      
+            <availability>out of stock</availability>
+        </product>
+		
+    </products> 
+</enterprise>
